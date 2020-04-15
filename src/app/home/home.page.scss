@@ -29,3 +29,28 @@
 ion-content ion-toolbar {
   --background: translucent;
 }
+
+.circle {
+  border-radius: 50%;
+}
+
+.microphone-container {
+  width: 128px;
+  height: 128px;
+  margin: 0 auto;
+  background-color: #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.microphone-container.active {
+  transition: backbround-color 0.5s ease-in-out;
+  background-color:#76ad2d;
+}
+
+.microphone-container > img {
+  width: 64px;
+  height: 64px;
+}
+
